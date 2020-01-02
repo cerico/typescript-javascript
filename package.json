@@ -4,6 +4,10 @@
   "description": "colours",
   "main": "server.js",
   "dependencies": {
+    "@types/react": "^16.9.13",
+    "@types/react-dom": "^16.9.4",
+    "@types/styled-components": "^4.4.0",
+    "awesome-typescript-loader": "^5.2.1",
     "colour-drawers": "0.0.3",
     "express": "^4.16.2",
     "react": "^16.9.0",
@@ -13,6 +17,7 @@
     "redux": "^4.0.4",
     "redux-thunk": "^2.3.0",
     "styled-components": "^4.3.2",
+    "typescript": "^3.7.2",
     "webpack": "^4.39.2",
     "webpack-cli": "^3.3.7",
     "webpack-dev-server": "^3.8.0"

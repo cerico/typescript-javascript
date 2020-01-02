@@ -1,9 +1,13 @@
 var path = require('path');
 module.exports = options => {
     return {
-      entry: './src/index.js',
+      entry: './src/index.tsx',
+      resolve: {
+        extensions: [".js", ".json", ".ts", ".tsx"],
+      },
       module: {
         rules: [
+          { test: /\.(t)sx?$/, use: { loader: 'awesome-typescript-loader' } },
           {
               test: /\.js$/,
               loader: 'babel-loader',
